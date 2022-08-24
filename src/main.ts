@@ -1,15 +1,16 @@
-import './style.css'
+// REFERENCE https://codesandbox.io/s/p5js-with-typescript-8rgs6?file=/index.html
+
+import "./style.css";
 
 import P5 from "p5";
-import "p5/lib/addons/p5.dom";
 // import "p5/lib/addons/p5.sound";	// Include if needed
-import "./styles.scss";
 
 // DEMO: A sample class implementation
 import MyCircle from "./MyCircle";
 
+
 // Creating the sketch itself
-const sketch = (p5: P5) => {
+const sketch = (p5:P5) => {
     // DEMO: Prepare an array of MyCircle instances
     const myCircles: MyCircle[] = [];
 
